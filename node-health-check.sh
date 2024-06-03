@@ -51,3 +51,7 @@ wget https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20F
 sudo find /  -name node
 # To change the Root user
 sudo su - #su: switch user and -:dash refers to root user Note: like root user we can switch to any user like sudo su <userName>.
+# Concept of Trap 
+# used for trapping the signal
+
+#trap "rm -rf *" SIGINT
