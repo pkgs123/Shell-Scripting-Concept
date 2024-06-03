@@ -40,3 +40,14 @@ nproc
 ps -ef | grep node-health-check # use of pipe which takes o/p from 1st cmd and frwd to 2nd cmd
 # To find the PID - ProcessId for the specific process
 ps -ef | grep node-health-check | awk -F " " '{print $2}'
+
+# To find the specific details from  logs like only Errors from large log files.
+curl https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/apache_logs/apache_logs | grep error | awk -F " " '{print}
+ $1'
+# To download and find the specific details from any url like logs 
+
+wget https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/apache_logs/apache_logs | grep error
+# To find the specific file location inside node
+sudo find /  -name node
+# To change the Root user
+sudo su - #su: switch user and -:dash refers to root user Note: like root user we can switch to any user like sudo su <userName>.
