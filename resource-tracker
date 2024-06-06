@@ -1,0 +1,14 @@
+2024-03-18 04:21:07 mybucket180324
+2024-06-06 13:50:30 testbucket060624
+"i-0af57ed0b2d56e62b"
+{
+    "Functions": []
+}
+{
+    "User": {
+        "UserId": "172628664036",
+        "Arn": "arn:aws:iam::172628664036:root",
+        "CreateDate": "2022-12-24T13:43:04+00:00",
+        "PasswordLastUsed": "2024-06-06T13:49:42+00:00"
+    }
+}
